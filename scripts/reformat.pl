@@ -29,7 +29,6 @@
 
 use Time::HiRes qw( time );
 use Parallel::ForkManager;
-use DBM::Deep;
 
 use lib $ENV{"HHLIB"}."/scripts";
 use HHPaths;   # config file with path variables for nr, blast, psipred, pdb, dssp etc.
